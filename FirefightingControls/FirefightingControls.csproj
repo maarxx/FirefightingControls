@@ -31,7 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="FirefightingUtilities.cs" />
+    <Compile Include="Patches.cs" />
+    <Compile Include="MapComponent_FirefightingControls.cs" />
+    <Compile Include="FirefightingControls_RegisterToMainTab.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
