@@ -34,24 +34,6 @@ namespace FirefightingControls
             buttons.Add(new ModButton_Text(
                 delegate
                 {
-                    string buttonLabel = "Firefighting is Currently:" + Environment.NewLine;
-                    if (FirefightingUtilities.getIsEmergency())
-                    {
-                        buttonLabel += "EMERGENCY";
-                    }
-                    else
-                    {
-                        buttonLabel += "Normal Work";
-                    }
-                    return buttonLabel;
-                },
-                delegate {
-                    FirefightingUtilities.setIsEmergency(!FirefightingUtilities.getIsEmergency());
-                }
-            ));
-            buttons.Add(new ModButton_Text(
-                delegate
-                {
                     return "Firefighting Area is Currently:" + Environment.NewLine + (getComponent().areaToFirefight?.Label ?? "Unrestricted");
                 },
                 delegate {
