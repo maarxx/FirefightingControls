@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirefightingControls", "FirefightingControls\FirefightingControls.csproj", "{D4811E4A-4AB6-47C8-A9FE-61A6D8722E92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4811E4A-4AB6-47C8-A9FE-61A6D8722E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4811E4A-4AB6-47C8-A9FE-61A6D8722E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4811E4A-4AB6-47C8-A9FE-61A6D8722E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4811E4A-4AB6-47C8-A9FE-61A6D8722E92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B520C440-E9DA-43E1-BBC2-4EC9968F61E1}
+	EndGlobalSection
+EndGlobal
