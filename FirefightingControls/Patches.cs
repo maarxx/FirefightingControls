@@ -38,21 +38,13 @@ namespace FirefightingControls
     {
         static MethodBase TargetMethod()
         {
-            Log.Message("1");
-            Assembly a = typeof(WorkGiver_FeedPatient).Assembly;
-            Log.Message("2");
-            Type t = a.GetType("RimWorld.WorkGiver_FightFires");
-            Log.Message("3");
-            MethodInfo m = t.GetMethod("HasJobOnThing");
-            Log.Message("4");
-            return m;
-            //return typeof(WorkGiver_FeedPatient).Assembly.GetType("WorkGiver_FightFires").GetMethod("HasJobOnThing");
+            return typeof(WorkGiver_FeedPatient).Assembly.GetType("RimWorld.WorkGiver_FightFires").GetMethod("HasJobOnThing");
         }
 
         //public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
         static bool Prefix(Pawn pawn, Thing t, bool forced, ref bool __result)
         {
-            Log.Message("Hello from Patch_WorkGiver_FightFires_HasJobOnThing Prefix!");
+            //Log.Message("Hello from Patch_WorkGiver_FightFires_HasJobOnThing Prefix!");
             Fire fire = t as Fire;
             if (fire == null)
             {

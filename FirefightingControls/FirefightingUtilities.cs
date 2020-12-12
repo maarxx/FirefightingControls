@@ -22,15 +22,5 @@ namespace FirefightingControls
             }
             return new FloatMenu(firefightingAreasMenuOptions);
         }
-
-        public static bool getIsEmergency()
-        {
-            return DefDatabase<WorkGiverDef>.GetNamed("FightFires").emergency;
-        }
-
-        public static void setIsEmergency(bool isEmergency)
-        {
-            DefDatabase<WorkGiverDef>.GetNamed("FightFires").emergency = isEmergency;
-        }
     }
 }
