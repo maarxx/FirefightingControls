@@ -4,6 +4,8 @@ This is a mod for the game RimWorld by Ludeon Studios.
 
 It provides a button to dynamically change the Area used for Firefighting, to something other than Home area.
 
+We're on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=2324534687
+
 # Dependency
 
 This requires another mod of mine: [ModButtons](https://github.com/maarxx/ModButtons)
