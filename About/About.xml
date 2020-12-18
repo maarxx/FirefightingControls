@@ -3,7 +3,7 @@
   <name>FirefightingControls</name>
   <author>Maarx</author>
   <url>https://github.com/maarxx/FirefightingControls/</url>
-  <description>Provides controls for whether to Firefight in/out of Home Area, and whether it is an Emergency or normal Work.</description>
+  <description>Provides a button to dynamically change the Area used for Firefighting, to something other than Home area.</description>
   <packageId>maarx.firefightingcontrols</packageId>
   <supportedVersions>
     <li>1.2</li>
