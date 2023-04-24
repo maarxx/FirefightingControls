@@ -12,9 +12,9 @@ This requires another mod of mine: [ModButtons](https://github.com/maarxx/ModBut
 
 # Table of Contents
 
-* [Introduction and Explanation](#introduction-and-explanation)
+* [Introduction](#introduction)
 
-# Introduction and Explanation
+# Introduction
 
 The mod provides a button to dynamically change the Area used for Firefighting, to something other than Home area.
 
