@@ -2,7 +2,7 @@
 
 This is a mod for the game RimWorld by Ludeon Studios.
 
-It provides a button to dynamically change the Area used for Firefighting, to something other than Home area.
+The mod provides a button to dynamically change the Area used for Firefighting, to something other than Home area.
 
 We're on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=2324534687
 
@@ -16,7 +16,7 @@ This requires another mod of mine: [ModButtons](https://github.com/maarxx/ModBut
 
 # Introduction and Explanation
 
-You'll add the mod. You'll enable the mod.
+The mod provides a button to dynamically change the Area used for Firefighting, to something other than Home area.
 
 The dependency "ModButtons" will put a button tray in the lower-right corner, and inside that, you'll find a new button, to change the Firefighting area.
 
